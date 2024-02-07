@@ -85,9 +85,9 @@ sections:
           description: |2-
               Responsibilities include:
 
-              * Authoring written reports
-              * Contributing to database develpment
-              * Working independently and within teams
+              * Authored written reports
+              * Contributed to database develpment
+              * Worked independently
     design:
       columns: '2'
   - block: accomplishments
@@ -108,7 +108,7 @@ sections:
           date_start: '2021-03-01'
           description: |2-
             Trained in optimizing response efficacy through effective communication and  the implementation of an internationally recognized response framework.
-          icon: sitemap
+          icon: sitemap-solid
           organization: Response and Recovery
           organization_url: ''
           title: Incident Command Systems 100
