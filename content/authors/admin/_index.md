@@ -66,9 +66,19 @@ skills:
         icon_pack: fas
       - name: R
         description: ''
-        percent: 20
+        percent: 90
         icon: r-project
-        icon_pack: fab        
+        icon_pack: fab
+      - name: Tableau
+        description: ''
+        percent: 60
+        icon: chart-pie
+        icon_pack: fas
+      - name: Power BI
+        description: ''
+        percent: 50
+        icon: chart-bar
+        icon_pack: far          
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
