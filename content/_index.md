@@ -103,7 +103,7 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: uploads/resume.pdf
+        - certificate_url: ''
           date_end: ''
           date_start: '2021-03-01'
           description: |2-
@@ -115,7 +115,7 @@ sections:
           url: https://www.icscanada.ca
         - certificate_url: https://www.edx.org
           date_end: ''
-          date_start: '2021-01-01'
+          date_start: '2024-01-01'
           description: Formulated informed blockchain models, hypotheses, and use cases.
           icon: edx
           organization: edX
@@ -123,8 +123,8 @@ sections:
           title: Blockchain Fundamentals
           url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
         - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
+          date_end: ''
+          date_start: '2024-01-01'
           description: ''
           icon: datacamp
           organization: DataCamp
