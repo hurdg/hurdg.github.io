@@ -56,8 +56,13 @@ skills:
         icon_pack: fab
       - name: Data Science
         description: ''
-        percent: 100
+        percent: 95
         icon: chart-line
+        icon_pack: fas
+      - name: GIS
+        description: ''
+        percent: 100
+        icon: earth-americas
         icon_pack: fas
       - name: SQL
         description: ''
@@ -66,7 +71,7 @@ skills:
         icon_pack: fas
       - name: R
         description: ''
-        percent: 90
+        percent: 100
         icon: r-project
         icon_pack: fab
       - name: Tableau
