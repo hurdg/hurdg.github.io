@@ -72,9 +72,22 @@ sections:
           description: |2-
               Responsibilities include:
 
-              * Analysing, modelling, & deploying 
-              * Management and scheduling of staff
-              * Lead time-sensitive responses to dynamic responses
+              * Deploying initiatives derived from data analysis and modelling
+              * Managing and scheduling staff
+              * Leading time-sensitive responses
+        - title: Resource Management Technician
+          company: Parks Canada
+          company_url: ''
+          company_logo: pc-gc
+          location: Banff, AB
+          date_start: '2013-01-01'
+          date_end: '2018-01-01'
+          description: |2-
+              Responsibilities include:
+
+              * Authoring written reports
+              * Contributing to database develpment
+              * Working independently and within teams
     design:
       columns: '2'
   - block: accomplishments
@@ -92,13 +105,14 @@ sections:
       items:
         - certificate_url: https://www.coursera.org
           date_end: ''
-          date_start: '2021-01-25'
-          description: ''
-          icon: coursera
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
-          url: ''
+          date_start: '2021-03-01'
+          description: |2-
+            Trained in optimizing response efficacy through effective communication and  the implementation of an internationally recognized response framework.
+          icon: sitemap
+          organization: Response and Recovery
+          organization_url: ''
+          title: Incident Command Systems 100
+          url: https://www.icscanada.ca
         - certificate_url: https://www.edx.org
           date_end: ''
           date_start: '2021-01-01'
