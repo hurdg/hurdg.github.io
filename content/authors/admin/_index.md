@@ -25,18 +25,18 @@ organizations:
     url: https://science.ucalgary.ca/data-science
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include mathematical modelling of biological systems, machine learning, and actionable visualizations.
+bio: My research interests include mathematical modelling of biological systems, machine learning, and creating high impact visualizations.
 
 # Interests to show in About widget
 interests:
-  - Biology
-  - Computational Modelling
-  - Mathematics
+  - Biological Systems
+  - Mathematical Modelling
+  - Statistical Coding
 
 # Education to show in About widget
 education:
   courses:
-    - course: Master's in Data SCience and Analytics
+    - course: Master's in Data Science and Analytics
       institution: University of Calgary
       year: 2023
     - course: Bachelor of Science
@@ -68,7 +68,7 @@ skills:
         description: ''
         percent: 20
         icon: r-project
-        icon_pack: fas        
+        icon_pack: fab        
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
