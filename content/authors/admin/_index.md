@@ -83,20 +83,30 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: Mountain Sports
         description: ''
-        percent: 60
+        percent: 90
         icon: person-hiking
         icon_pack: fas
       - name: Basketball
         description: ''
-        percent: 100
+        percent: 80
         icon: basketball
         icon_pack: fas
       - name: Photography
         description: ''
-        percent: 80
+        percent: 60
         icon: camera-retro
+        icon_pack: fas
+      - name: 3D-Design
+        description: ''
+        percent: 70
+        icon: cube
+        icon_pack: fas
+      - name: Reading/Writing
+        description: ''
+        percent: 80
+        icon: user-pen
         icon_pack: fas
 
 # Social/Academic Networking
@@ -109,19 +119,16 @@ social:
     link: 'mailto:gavin.hurd@ucalgary.ca'
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
+    link: https://twitter.com/hurd_gavin
     label: Follow me on Twitter
     display:
       header: true
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
   - icon: github
     icon_pack: fab
     link: https://github.com/hurdg
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/
+    link: www.linkedin.com/in/gavin-hurd
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
@@ -133,5 +140,5 @@ social:
 highlight_name: true
 ---
 
-Gavin Hurd is a Master's of Data Science candidate at the UNiversity of Calgary. His research computaional and mathematical modelling of biological systems.
+Gavin Hurd is a Master's of Data Science candidate at the University of Calgary. His research is centred on modelling complex biological systems. Gavin has developed frameworks with which to understand and predict movement patterns of wildlife, but his expertise extends beyond ecology to molecular biology and genomics.
 {style="text-align: justify;"}
