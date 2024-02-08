@@ -177,8 +177,8 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Deep Learning
-          tag: Deep Learning
+        - name: Case Study
+          tag: Case Study
         - name: Other
           tag: Demo
     design:
