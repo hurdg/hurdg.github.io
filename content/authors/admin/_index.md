@@ -145,5 +145,5 @@ social:
 highlight_name: true
 ---
 
-Gavin Hurd is a Master's of Data Science candidate at the University of Calgary. His research is centred on modelling complex biological systems. Gavin has developed frameworks with which to understand and predict movement patterns of wildlife, but his expertise extends beyond ecology to molecular biology and genomics.
+Gavin Hurd is a Master's of Data Science candidate at the University of Calgary. His research is centred on modelling complex biological systems.
 {style="text-align: justify;"}
