@@ -6,7 +6,7 @@ tags:
 date: "2016-04-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-link: uploads/Data603_Project_Team9.html.pdf
+external_link: https://example.org
 
 image:
   caption: Photo by Toa Heftiba on Unsplash
