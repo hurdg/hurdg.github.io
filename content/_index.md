@@ -246,7 +246,7 @@ sections:
       title: Contact
       subtitle:
       text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
+        Want to get in touch?
       # Contact (add or remove contact options as necessary)
       email: gavin.hurd@ucalgary.ca
       phone: (587) 576 4286
