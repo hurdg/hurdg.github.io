@@ -37,16 +37,3 @@ slides: example
 The study of astrophysics seeks to better understand and explain the forces and relationships that govern objects and phenomena across our universe. Through the application of chemistry and physics to stellar observations many innovative insights have been achieved; for example, the temperatures of distant stars have been accurately measured by analyzing the ratios of emitted wavelengths. Two particularly important insights involved the shifts in the emissions spectrums of astronomical objects and the angle between objects and Earth, which have allowed the measurements of the speed and distance of far away objects, respectively. These measurements of speed and distance have led to perhaps the most well-known astrophysical conclusion of all, that the universe is expanding.  
 
 This concept was originally put forward by Edwin Hubble in 1929 (NASA, n.d.). Hubble’s conclusion received much publicity and ran contrary to many commonly held opinions of the time. Despite being commonly cited as one of the most revolutionary discoveries in the history of astrophysics, the underlying evidence is scarcely known. The assertion that the universe is expanding rested on the observations that the further an astronomical object was from earth, the faster it appeared to be moving. Hubble realized that such an observation was best explained by a theory wherein empty space was increasing in size.
-
-```{r Hubble, echo=FALSE, fig.cap="Edwin Hubble Seated at the Mount Wilson Observatory Edwin P. Hubble Papers, Huntington Library, San Marino, California (NASA, n.d.)", out.width = '90%'}
-knitr::include_graphics("C:/Users/hurdg/OneDrive/Documents/MDSA/DATA 602/Data 602 - Project/pngs/Hubble.png")
-```
-Despite the wide acceptance of the expanding universe theory, it can be a difficult concept to grasp. In this project, we aim to examine publicly available data pertaining to the speeds and distances of astronomical objects to better understand the conditions and evidence of the expanding universe theory. Our model of the universe's expansion is illustrated below. In this model, the universe is portrayed as a two dimensional grid that expands over a period of time. As the grid doubles in size, the distances between both the red dots and the blue dots correspondingly double as well. Interestingly, the blue dots must have travelled twice as fast (relative to each other) as the red dots, as the distance between the blue dots increased by twice as much as the red dots over the same time period.  
-  
-```{r Figure1, echo=FALSE, fig.cap="Simplified Uninverse Expansion Model", out.width = '90%'}
-knitr::include_graphics("C:/Users/hurdg/OneDrive/Documents/MDSA/DATA 602/Data 602 - Project/pngs/Expansion_model.png")
-```
-\  
-\  
-  
-This model of the universe expansion would suggest a linear relationship between the distance an object is from an observer and its speed. As such, we set out to attempt to test the validity of this model by creating a linear function representing this relationship. 
