@@ -30,7 +30,7 @@ url_video: ''
 slides: example
 ---
 
-# Analysis 1  
+# Astrophysics in R
   
 
 ## Introduction  
@@ -100,3 +100,44 @@ Following the visualizations, we continued with the two-sample test. Given the d
   
 $\bar{\mu}_{Near} = 0.437_{\frac{km}{s}}$  
 $\bar{\mu}_{Far} = 1.419_{\frac{km}{s}}$  
+
+![Image8: ttest](/t-test.png)
+
+We completed a right-tailed T-test and obtained a $P$-value of 2e-16. From this, we are able to reject the null hypothesis with relative confidence. This $P$-value signifies that the probability of a similar sample of far and near astronomical objects resulting in groups with the same, or more extreme, differences in mean speed values is extremely small. In other words, the test provides strong evidence that the mean speed of *Far* observable astronomical objects (between 17109.07 and 34218.14 parsecs) is greater than those that are *Near* ($\leq$ 17109.07 pa).  
+  
+  
+## Sensitivity Analysis  
+  
+In light of our decision to arbitrarily categorize the distance variable, we wanted to assess the effect of alternate cutoff values. Analyzing a data set of this size presents statistical risks with regards to any conclusions or inferences. We will explore in these next chunks, just how much results can vary based on group splitting points.
+
+### Step 1: Take an overall sample of the dataset 
+### Step 2: Run favstats on sample Distance values
+### Step 3: Run t.test using different categorical splitting values
+
+![Image9: sens](/sensitivity1.png)
+\textcolor{red}{Notes}
+- P-Value well below 0.05, indicating very strong evidence against $H_{0}$ *(speeds are similar for near and far)*
+- 95% confidence interval is > 0.946, indicating a significant difference of speeds is inferred.  
+
+### Mean distance  
+![Image10: sens2](/sensitivity2.png)
+\textcolor{red}{Notes}  
+- P-Value moves to 1, indicating very strong evidence FOR $H_{0}$ *(speeds are similar for near and far)*  
+- 95% confidence interval includes 0, indicating reasonable possibility of NO difference    
+
+![Image11: sens3](/sensitivity3.png)
+\textcolor{red}{Notes}  
+- P-Value = 1, indicating very strong evidence FOR $H_{0}$ *(speeds are similar for near and far)*  
+- 95% confidence interval includes 0, but even less than previous, indicating even stronger evidence of NO difference  
+
+### Comments
+We observe significant statistical differences based on difference data-splitting decisions.
+These results highlight the general issues involved in statistical analysis and the drawing of inferences.
+By grouping the stars into buckets and analyzing speed as a mean of stars within a distance range, we can remove a potentially biased weighting of the number of stars at different distances.  
+
+## Interpretation  
+We set out to create a simplified model of the expansion of the universe based around a linear function; unfortunately, it was not appropriate to use a linear model given the lack of constant variation relative to the hypothesized regression line. Therefore, we opted to perform a two-sample analysis by categorizing the distance variable. We delineated two distance groups based upon the midpoint of observed distances. Based on the results of our T-Test, we can make the following inferences:  
+- We can reject the Null Hypothesis (no difference between near and far speeds)  
+- we can infer that observable astronomical objects that are *Far* (between 17109.07 and 34218.14 parsecs) appear to have a greater mean speed than those that are *Near* ($\leq$ 17109.07 pa).  
+Our results were somewhat limited by the sampling methodology of the Gaia space observatory; the apparent observation bias prevents us from making broader conclusions. Nevertheless. our results are consistent with the generally accepted theory of how the universe is expanding as discussed in the introduction. Through the sensitivity analysis, we additionally gained insight into the influence that the selection of cutoff values can have on experimental conclusions.
+
