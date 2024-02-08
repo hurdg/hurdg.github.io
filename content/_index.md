@@ -134,6 +134,7 @@ sections:
     design:
       columns: '2'
   - block: collection
+    demo: true # Only display this section in the Hugo Blox Builder demo site
     id: posts
     content:
       title: Recent Posts
@@ -188,6 +189,7 @@ sections:
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
   - block: markdown
+    demo: true # Only display this section in the Hugo Blox Builder demo site
     content:
       title: Gallery
       subtitle: ''
@@ -196,6 +198,7 @@ sections:
     design:
       columns: '1'
   - block: collection
+    demo: true # Only display this section in the Hugo Blox Builder demo site
     id: featured
     content:
       title: Featured Publications
@@ -207,6 +210,7 @@ sections:
       columns: '2'
       view: card
   - block: collection
+    demo: true # Only display this section in the Hugo Blox Builder demo site
     content:
       title: Recent Publications
       text: |-
@@ -221,6 +225,7 @@ sections:
       columns: '2'
       view: citation
   - block: collection
+    demo: true # Only display this section in the Hugo Blox Builder demo site
     id: talks
     content:
       title: Recent & Upcoming Talks
@@ -243,24 +248,24 @@ sections:
       text: |-
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
       # Contact (add or remove contact options as necessary)
-      email: test@example.org
-      phone: 888 888 88 88
+      email: gavin.hurd@ucalgary.ca
+      phone: (587) 576 4286
       appointment_url: 'https://calendly.com'
       address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
-        country: United States
-        country_code: US
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-      office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
+        #street: 450 Serra Mall
+        city: Calgary
+        region: AB
+        #postcode: '94305'
+        country: Canada
+        country_code: CA
+      #directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+      #office_hours:
+      #  - 'Monday 10:00 to 13:00'
+      #  - 'Wednesday 09:00 to 10:00'
       # Choose a map provider in `params.yaml` to show a map from these coordinates
       coordinates:
-        latitude: '37.4275'
-        longitude: '-122.1697'  
+        latitude: '51.0447'
+        longitude: '114.0719'  
       contact_links:
         - icon: twitter
           icon_pack: fab
