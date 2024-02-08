@@ -79,3 +79,88 @@ For a different perspective on major contributors, we also created a pie chart b
 
 ![Image3: pie](/ghg_proj/ghg3.png)
 
+GHG Per capita figure generation.  In a separate section of code, we processed a population CSV file. After removing missing values and resetting the index, we filtered the data to retain only Q1 data for each year. We used regular expressions to extract the four-year digit and create a new column called "Year." Similarly, we did this for the two-character quarter data and placed it in another new column. We then filtered the data to include only rows corresponding to Q1. Following this, we sorted and reordered the columns to achieve a specific structure. From this refined DataFrame, named df_pop, we further filtered the data to obtain the 2019 population statistics. We followed a similar process for GHG data for the year 2019. Finally, we divided the GHG column by the population column and created a bar graph using Matplotlib. This bar plot visualizes the relationship between per capita GHG emissions for each province and territory for the year 2019 to facilitate comparative analysis.
+
+![Image4: byprov](/ghg_proj/ghg4.png)
+
+# Findings and Analysis of Guiding Question 2
+
+The visualizations from both line plots (figure 1b) and pie charts (figure 2b) indicated that Alberta is the largest contributor to GHG emissions, followed by Ontario, Quebec, Saskatchewan, British Columbia, Manitoba, Nova Scotia, New Brunswick, Newfoundland and Labrador, PE Island, Northwest Territories, Nunavut, and Yukon. Alberta alone accounts for approximately 38% or more than a third of all GHG emissions, with Ontario as the next significant contributor, making up 22.6%, which is just under a quarter of the total emissions. However, this method doesn't account for variations in regional population sizes.
+
+When considering per capita GHG emissions, as demonstrated in figure 3b for the year 2019, it becomes clear that the top three per capita emitters, in order, are Alberta, Saskatchewan, and the Northwest Territories. This suggests that individuals in these regions have a relatively high environmental impact in terms of GHG emissions. Despite their smaller populations compared to provinces like Ontario or Quebec, residents in these regions are contributing more emissions per person. This underscores the need for tailored policies and strategies at both the provincial and individual levels to address this impact effectively.
+
+The objective of the comparative visualization in figure 4b was to address the question of how various provinces and territories were managing their GHG emissions over time. The bubble graph proved to be an effective tool for this analysis, allowing us to not only observe trends in GHG emissions but also population growth (on the x-axis) and the size of bubbles representing GHG emissions from the energy sector. Our examination of this visualization revealed a common trend among all provinces: an increase in population between the years 2000, 2010, and 2019. However, there were distinct patterns in GHG emissions management. Notably, Ontario, Nova Scotia, New Brunswick, Prince Edward Island, and the Northwest Territories demonstrated a commendable reduction in emissions over time. A closer look at the data and consultation with relevant literature provided insights into the reasons behind these changes. For instance, Ontario's emissions reduction was primarily attributed to the closure of coal-fired electricity generation plants, as reported by Environment and Climate Change Canada (2023). Quebec also displayed a slight decreasing trend in emissions, which could be linked to reductions in the residential sector, as well as changes in aluminum production and petroleum refining industries. Conversely, British Columbia showed relatively stable emissions. The remaining provinces experienced emissions increases in tandem with population growth. Alberta and Saskatchewan, in particular, saw notable increases due to heightened activities in the oil and gas industries, as noted in the Environment and Climate Change Canada report (2023).
+
+Given the overall goal of reducing GHG emissions, the total amount of emissions particular to a province/territory can be taken to represent the severity of the issue in that region. However, the severity does not necessarily correlate directly with potential for improvement. In many ways, population and GHG emissions are directly linked. Efforts aimed at reducing GHG emissions are likely best focused on the areas with the most potential for improvement, which are not necessarily the areas where the problem is most severe. Figure 5b was created to highlight htis concept. Whereas Ontario was one of the highest GHG emitting provinces on an absolute level, suggesting a sever issue, it's per capita output is relatively modest. On the other hand, Alberta and Saskatchewan were identified amonth the highest total GHG emitters, and remained high at the per capita level. This suggests that the GHG emissions of the regions are severe, but that there may be a relatively high potential for improvement. Given this framing, it is also important to remember the other contribtuting factors associated with GHG emissions. In the same way that population are GHG emissions are somewhat inseperable, so too is economic activity. As stated above, Alberta contributes substantially to the oil and gas industries, which may have a substantial impact on the hypothesized potential for reduction in GHG emissions. Additional studies into the GHG emission profile of Alberta, and also Saskatchewan, will be essential for the further identification of potential areas for GHG emission reductions in Canada.
+
+# Conclusion
+
+In summary, our analysis of GHG emissions in Canadian provinces and territories reveals a clear hierarchy of contributors, with Alberta leading the way, followed by Ontario, Quebec, Saskatchewan, and other regions. Further resolution to these spatial trends was provided by per capita modelling, which revealed a consistently high GHG output form Alberta, and to a lesser extent, Saskatchewan. These findings underscore the significance of tailored policies, especially when considering per capita emissions, where Alberta and Saskatchewan stand out as high-impact areas. A closer examination of GHG emissions management over time highlights positive trends in several provinces, such as emissions reduction in Ontario, Nova Scotia, New Brunswick, Prince Edward Island, and the Northwest Territories. These reductions are often tied to specific actions, like the closure of coal-fired plants in Ontario and changes in the industrial landscape in Quebec. Conversely, Alberta and Saskatchewan experience emissions increases, largely driven by activities in the oil and gas sectors. This comprehensive analysis calls for region-specific strategies to address GHG emissions effectively. We acquired valuable skills through this process, including proficient data wrangling techniques, the capability to efficiently iterate through multiple datasets simultaneously, and the ability to construct informative dashboards.
+As for the economic impact of GHG emissions, there has been a steady increase in GHG emissions for the industrial, freight and passenger transportation sectors, in contrast, there has been a marginal decrease in the residential and commercial sectors over the same period. Our analysis shows that despite the efforts by the government to reduce GHG emissions across Canada, there continues to be an upward trend from the industrial and transportation sectors, this is also evident with the continued rise in GDP for most of the period. 
+
+As we dived deeper into the topic of GHG emissions, we acquired valuable skills, including proficient data wrangling techniques, the capability to efficiently iterate through multiple datasets simultaneously, and the ability to construct informative dashboards.
+
+# Reference List
+1. Boyce, S. (2023). Political Governance, Socioeconomics, and Weather Influence Greenhouse Gas Emissions
+across Subnational Jurisdictions in Canada (Doctoral thesis; University of Alberta)
+
+2. Natural Resources Canada - Office of Energy Efficiency - Demand Policy and Analysis Division. (2023, February 28). Commodity prices and background indicators. Government of Canada, Natural Resources Canada.
+https://oee.nrcan.gc.ca/corporate/statistics/neud/dpa/showTable.cfm?type=HB&sector=aaa&juris=ca&year=2020&rn=5&page=0
+
+3. Natural Resources Canada - Office of Energy Efficiency - Demand Policy and Analysis Division. (2023, March 14). Canada’s GHG emissions by Sector, end use and subsector – including electricity-related emissions. Government of Canada, Natural Resources Canada. https://oee.nrcan.gc.ca/corporate/statistics/neud/dpa/showTable.cfm?type=HB&sector=aaa&juris=ca&rn=3&page=0
+
+4. Slav, I. (2022, August 11). Alberta oil output hits record high. OilPrice.com. https://oilprice.com/Latest-Energy-News/World-News/Alberta-Oil-Output-Hits-Record-High.html
+
+5. Canada, N. R. (2023). Natural Resources Canada. Natural Resources Canada - GHG Emissions by Sector, End Use and Subsector. https://oee.nrcan.gc.ca/corporate/statistics/neud/dpa/showTable.cfm?type=HB&sector=aaa&juris=ca&rn=3&page=0
+
+6. Environment and Climate Change Canada (2023). Canadian Environmental Sustainability Indicators: Global greenhouse gas emissions. Consulted on Sept 23, 2023. www.canada.ca/en/environment-climate-change/services/environmental-indicators/globalgreenhouse-gas-emissions.html.
+
+7. Environment and Climate Change Canada (2023a).Water governance and legislation: provincial and territorial. Retrieved on Oct 10, 2023 from https://www.canada.ca/en/environment-climate-change/services/water-overview/governance-legislation/provincial-territorial.html
+
+8. Government of Canada, C. E. R. (2023). Canada energy regulator / Régie de l’énergie du Canada. CER. https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/provincial-territorial-energy-profiles/provincial-territorial-energy-profiles-explore.html
+
+9. Helbling, T. (2013). On the Rise: High prices and new technology have triggered a sudden surge in oil and gas production in the United States that could shake up global energy markets. Finance & Development, 50(1), ISBN: 9781475542684. International Monetary Fund. DOI: https://doi.org/10.5089/9781475542684.022
+
+10. McKinney,W.(2010). Data Structures for Statistical Computing in Python. Proceedings of the 9th Python In Science Conference 445: 51-56.https://conference.scipy.org/proceedings/scipy2010/pdfs/mckinney.pdf
+
+11. Natural Resources Canada - Office of Energy Efficiency - Demand Policy and Analysis Division. (2023). Commodity prices and background indicators. Natural Resources Canada https://oee.nrcan.gc.ca/corporate/statistics/neud/dpa/showTable.cfm?type=HB&sector=aaa&juris=ca&year=2020&rn=5&page=0
+
+12. Osler. (2023.). Canadian Climate Change Policy Developments. Retrieved from https://www.osler.com/en/resources/regulations/focus/canadian-climate-change-policy-developments
+
+13. Data Network Team. (n.d.). Provinces and territories - Canada, (2023), Opendatasoft. Retrieved October 3,
+2023 from https://data.opendatasoft.com/explore/dataset/georef-canada-province%40public/information/
+?disjunctive.prov_name_en&location=3,63.54855,-70.22461&basemap=jawg.streets
+
+14. Statistics Canada. Table 17-10-0009-01  Population estimates, quarterly. Consulted on Sept 23, 2023. DOI: https://doi.org/10.25318/1710000901-eng
+
+15. United Nations, Department of Economic and Social Affairs, Population Division (2022). World Population Prospects: The 2022 Revision, custom data acquired via website
+
+16. Plot Types — Matplotlib 3.8.0 Documentation. https://matplotlib.org/stable/plot_types/index.html. Accessed 9 Oct. 2023.
+
+17. Wasom, M. L., (2021). Seaborn: statistical data visualization. Journal of Open Source Software, 6(60), 3021, https://doi.org/10.21105/joss.03021
+
+18. Plotly Technologies Inc (2015). Collaborative data science. https://plot.ly.
+
+19. Wlodkowski, P. Making Interactive Choropleth Maps with Temperature Data, (2021), GitHub repository.
+Retrieved October 1, 2023 from https://github.com/pawlodkowski/interactive_climate_map
+
+20. Vu, T. (2022, April 24). Thu-VU92/python-dashboard-panel: Interactive Visualization Dashboard in python with panel. GitHub. https://github.com/thu-vu92/python-dashboard-panel
+
+21. Vu, T. (2022, March 9). How to create a beautiful python visualization dashboard with panel/hvplot. YouTube. https://www.youtube.com/watch?v=uhxiXOTKzfs&ab_channel=ThuVudataanalytics
+
+22. nkmk. (2023, August 8). Pandas: Transpose DataFrame (swap rows and columns). pandas: Transpose DataFrame (swap rows and columns). https://note.nkmk.me/en/python-pandas-t-transpose/
+
+23. Holoviz Contributors. (n.d.-a). Fast List Template. FastListTemplate - Panel v1.2.3. https://panel.holoviz.org/reference/templates/FastListTemplate.html
+
+24. Stratis, K., Santos, A., Weber, B., Hjelle, G., Jablonski, J., Schmitt, J., Finegan, K., & Breuss, M. (2023, February 7). Combining data in pandas with merge(), .join(), and CONCAT(). Real Python. https://realpython.com/pandas-merge-join-and-concat/
+
+25. Kelsey Jordahl, Joris Van den Bossche, Martin Fleischmann, Jacob Wasserman, James McBride, Jeffrey Gerard, … François Leblanc. (2020, July 15). geopandas/geopandas: v0.8.1 (Version v0.8.1). Zenodo. http://doi.org/10.5281/zenodo.3946761
+
+26. Environment and Climate Change Canada (2023). Canadian Environmental Sustainability Indicators: Greenhouse Gas Emissions. Consulted on October 15, 2023. Available at https://www.canada.ca/en/environment-climate-change/services/environmental-indicators/greenhouse-gas-emissions.html
+
+
+
+
+
+
+
