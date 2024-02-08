@@ -1,5 +1,5 @@
 ---
-title: Hubble
+title: Astrophysics in R
 summary: An example of using the in-built project page.
 tags:
   - Regression
