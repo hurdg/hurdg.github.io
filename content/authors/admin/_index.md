@@ -133,7 +133,7 @@ social:
     link: https://github.com/hurdg
   - icon: linkedin
     icon_pack: fab
-    link: www.linkedin.com/in/gavin-hurd
+    link: https://www.linkedin.com/in/gavin-hurd
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
