@@ -265,7 +265,7 @@ sections:
       # Choose a map provider in `params.yaml` to show a map from these coordinates
       coordinates:
         latitude: '51.0447'
-        longitude: '114.0719'  
+        longitude: '-114.066666'  
       contact_links:
         - icon: twitter
           icon_pack: fab
@@ -274,7 +274,7 @@ sections:
         - icon: skype
           icon_pack: fab
           name: Skype Me
-          link: 'skype:echo123?call'
+          link: 'skype:gavin.hurd'
         - icon: video
           icon_pack: fas
           name: Zoom Me

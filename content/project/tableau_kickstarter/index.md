@@ -1,6 +1,6 @@
 ---
-title: External Project
-summary: Geographical overview of fundraisers hosted by the popular organization, Kickstarter.
+title: Geographical overview of fundraisers hosted by the popular organization, Kickstarter.
+summary: External Project
 tags:
   - Demo
 date: "2024-02-01T00:00:00Z"
