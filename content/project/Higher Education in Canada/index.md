@@ -3,7 +3,6 @@ title: Analysis of the 2018 Canadian National Graduates Survey
 summary: External Project
 tags:
   - Visualization
-  - Analysis
 date: "2024-02-01T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
