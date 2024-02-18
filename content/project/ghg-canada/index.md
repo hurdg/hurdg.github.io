@@ -2,7 +2,7 @@
 title: Greenhouse gas emissions in Canada
 summary: A descriptive overview of emissions by sector, province/territory, and year.
 tags:
-  - EDA
+  - Visualization
 date: '2023-09-01T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
