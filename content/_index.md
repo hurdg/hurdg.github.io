@@ -107,10 +107,10 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Case Study
-          tag: Case Study
-        - name: Other
-          tag: Demo
+        - name: Analysis
+          tag: Analysis
+        - name: Visualization
+          tag: Visualization
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
