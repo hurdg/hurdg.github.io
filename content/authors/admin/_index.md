@@ -25,13 +25,13 @@ organizations:
     url: https://science.ucalgary.ca/data-science
 
 # Short bio (displayed in user profile at end of posts)
-bio: Cutting edge artificial intelligence and remote landscapes tend remain isolated from one another. I'm looking to change that. I am passionate about the understudied niches of biological systems where I believe advanced mathematical models can reveal astounding discoveries. 
+bio: 
 
 # Interests to show in About widget
 interests:
   - Biological Systems
   - Artificial Intelligence
-  - Meaningful Applications
+  - Building Meaningful Applications
 
 # Education to show in About widget
 education:
@@ -145,5 +145,5 @@ social:
 highlight_name: true
 ---
 
-Gavin Hurd is a Master's of Data Science candidate at the University of Calgary. His research is centred on modelling complex biological systems.
+The world is overflowing with interesting places and ideas. I am unashamedly biased towards remote landscapes. I've found that these often-overlooked destinations, and theur unique features, tend to remain severely isolated from scientific study. I'm looking to change that. With a Master's degree in Data Science and Analytics and a robust background in Biology, I am passionate about the understudied niches of biological systems where I believe advanced mathematical models and artificial intelligence can reveal astounding discoveries. 
 {style="text-align: justify;"}
