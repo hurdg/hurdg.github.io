@@ -25,13 +25,13 @@ organizations:
     url: https://science.ucalgary.ca/data-science
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include mathematical modelling of biological systems, machine learning, and creating high impact visualizations.
+bio: Cutting edge artificial intelligence and remote landscapes tend remain isolated from one another. I'm looking to change that. I am passionate about the understudied niches of biological systems where I believe advanced mathematical models can reveal astounding discoveries. 
 
 # Interests to show in About widget
 interests:
   - Biological Systems
-  - Mathematical Modelling
-  - Statistical Coding
+  - Artificial Intelligence
+  - Meaningful Applications
 
 # Education to show in About widget
 education:
