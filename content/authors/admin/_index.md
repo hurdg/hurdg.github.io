@@ -84,12 +84,12 @@ skills:
         percent: 50
         icon: chart-bar
         icon_pack: far
-      - name:TensorFlow
+      - name: TensorFlow
         description: ''
         percent: 80
         icon: chart-bar
         icon_pack: far
-      - name:PyTorch
+      - name: PyTorch
         description: ''
         percent: 70
         icon: chart-bar
