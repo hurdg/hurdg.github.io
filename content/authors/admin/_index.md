@@ -61,7 +61,7 @@ skills:
         icon_pack: fas
       - name: GIS
         description: ''
-        percent: 100
+        percent: 90
         icon: earth-americas
         icon_pack: fas
       - name: SQL
@@ -83,14 +83,34 @@ skills:
         description: ''
         percent: 50
         icon: chart-bar
-        icon_pack: far          
+        icon_pack: far
+      - name:TensorFlow
+        description: ''
+        percent: 80
+        icon: chart-bar
+        icon_pack: far
+      - name:PyTorch
+        description: ''
+        percent: 70
+        icon: chart-bar
+        icon_pack: far     
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Mountain Sports
+      - name: Skiing
         description: ''
         percent: 90
+        icon: person-hiking
+        icon_pack: fas
+      - name: Climbing
+        description: ''
+        percent: 80
+        icon: person-hiking
+        icon_pack: fas
+      - name: Biking
+        description: ''
+        percent: 70
         icon: person-hiking
         icon_pack: fas
       - name: Basketball
