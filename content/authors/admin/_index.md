@@ -84,20 +84,20 @@ skills:
         percent: 50
         icon: chart-bar
         icon_pack: far
-      - name: TensorFlow
-        description: ''
-        percent: 80
-        icon: chart-bar
-        icon_pack: far
       - name: Docker
         description: ''
         percent: 80
         icon: docker
+        icon_pack: fab
+      - name: TensorFlow
+        description: ''
+        percent: 80
+        icon: brain
         icon_pack: far
       - name: PyTorch
         description: ''
         percent: 70
-        icon: chart-bar
+        icon: brain
         icon_pack: far     
   - name: Hobbies
     color: '#eeac02'
