@@ -145,5 +145,5 @@ social:
 highlight_name: true
 ---
 
-The world is overflowing with interesting places and ideas. I am unashamedly biased towards remote landscapes. I've found that these often-overlooked destinations, and theur unique features, tend to remain severely isolated from scientific study. I'm looking to change that. With a Master's degree in Data Science and Analytics and a robust background in Biology, I am passionate about the understudied niches of biological systems where I believe advanced mathematical models and artificial intelligence can reveal astounding discoveries. 
+The world is overflowing with interesting places and ideas. After working as an ecologist and healthcare in the rural regions of the Rocky Mountains, I have developed a strong interest in remote landscapes. These overlooked destinations tend to remain  isolated from scientific study. With a Master's degree in Data Science and Analytics and a robust background in Biology, I am passionate about the understudied niches of biological systems where I believe advanced mathematical models and artificial intelligence can reveal astounding discoveries. 
 {style="text-align: justify;"}
