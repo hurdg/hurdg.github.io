@@ -88,12 +88,12 @@ skills:
         description: ''
         percent: 80
         icon: brain
-        icon_pack: far
+        icon_pack: fas
       - name: PyTorch
         description: ''
         percent: 70
         icon: brain
-        icon_pack: far
+        icon_pack: fas
       - name: Data Science
         description: ''
         percent: 95
