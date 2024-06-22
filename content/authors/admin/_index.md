@@ -144,5 +144,5 @@ social:
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-The world is overflowing with interesting places and ideas, with some receiving less attention than oters... After working as a biologist in the Rocky Mountains, I have developed a strong interest in remote landscapes. These overlooked destinations tend to remain  isolated from scientific study. With a Master's degree in Data Science and Analytics and a robust background in Biology, I am passionate about the understudied niches of biological systems where I believe advanced mathematical models and artificial intelligence can reveal astounding discoveries. 
+The world is overflowing with interesting places and ideas, with some receiving less attention than others... After working as a biologist in the Rocky Mountains, I have developed a strong interest in remote landscapes. These overlooked destinations tend to remain isolated from scientific study. With a Master's degree in Data Science and Analytics and a robust background in Biology, I am passionate about the understudied niches of biological systems where I believe advanced mathematical models and artificial intelligence can reveal astounding discoveries. 
 {style="text-align: justify;"}
