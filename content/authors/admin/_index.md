@@ -89,6 +89,11 @@ skills:
         percent: 80
         icon: chart-bar
         icon_pack: far
+      - name: Docker
+        description: ''
+        percent: 80
+        icon: docker
+        icon_pack: far
       - name: PyTorch
         description: ''
         percent: 70
@@ -101,14 +106,19 @@ skills:
       - name: Skiing
         description: ''
         percent: 90
-        icon: person-hiking
+        icon: person-skiing
         icon_pack: fas
       - name: Climbing
         description: ''
         percent: 80
-        icon: person-hiking
+        icon: mountain-sun
         icon_pack: fas
       - name: Biking
+        description: ''
+        percent: 70
+        icon: person-biking
+        icon_pack: fas
+      - name: Hiking
         description: ''
         percent: 70
         icon: person-hiking
